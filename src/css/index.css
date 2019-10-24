@@ -159,4 +159,6 @@ code {
 /*  TABELA  */
 td, th {
   padding: 8px;
+  background-color: rgb(240, 238, 238);
+  border-radius: 5px;
 }
