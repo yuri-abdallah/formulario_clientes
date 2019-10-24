@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #efefef;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App{
+  margin: 30px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 7px 7px 7px 7px #aaa;
+}
+
+.Formulario {
+   margin: 15px 0 0 0;
+}
+
+.Pesquisa {
+  margin: 10px;
+  width: 200px;
+}
+
+.Pesquisa > input {
+  padding: 8px 15px;
+  font-size: 1rem;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  outline: 0;
+  width: 100%;
+}
+
+.Pesquisa > input:focus {
+  box-shadow: 3px 3px 3px black;
+}
+
+
+.Ordenacao {
+  margin: 5px;
+  padding: 5px;
+}
+
+.Ordenacao > label {
+  font-size: 0.8rem;
+  padding: 0 5px;
+}
+
+.Ordenacao > select {
+  font-size: 1.1rem;
+  outline: 0;
+}
+
+.Opcoes > div {
+  padding: 0 10px;
+}
+
+/*  BOTOES  */
+.botao {
+    margin: 10;
+    padding: 8px 15px;
+    border: 1px solid #272727;
+    border-radius: 8px;
+    color: #272727;
+    background-color: #fefefe;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px black;
+}
+
+.botao:hover {
+  box-shadow: 0 0 0 white;
+}
+
+.botao-verde {
+  color: #fefefe;
+  background-color: #0e6318;
+}
+
+.botao-verde:hover {
+  background-color: #16a026;
+}
+
+.botao-vermelho {
+  color: #fefefe;
+  background-color: #886f70;
+}
+
+.botao-vermelho:hover {
+  background-color: #7f0309;
+}
+
+.botao-azul {
+  color: #fefefe;
+  background-color: #1360b2;
+}
+
+.botao-azul:hover {
+  background-color: #063466;
+}
+
+.botao-amarelo {
+  background-color: #ffff00;
+}
+
+.botao-amarelo:hover {
+  background-color: #ffff99;
+}
+
+/*  INPUT */
+.Input {
+    margin: 10px 0;
+}
+
+.Input > label {
+  display: block;
+  padding: 3px;
+}
+
+.Input > input {
+  margin: 5px;
+  padding: 8px 15px;
+  font-size: 1rem;
+  border: 1px solid #777;
+  border-radius: 8px;
+  
+}
+
+.Input > input:focus {
+  box-shadow: 0 0 0 white;
+  outline: 0;
+  box-shadow: 3px 3px 3px black;
+}
+
+.Input > small {
+  color: #ff0000;
+  margin: 5px;
+  padding: 4px 7px;
+  border-radius: 8px;
+  box-shadow: 3px 3px 3px white;
+}
+
+/*  FLEX  */
+.flex {
+  display: flex;
+}
+.horizontal {
+  flex-direction: row;
+}
+
+/*  TABELA  */
+td, th {
+  padding: 8px;
+}
